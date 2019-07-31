@@ -5,5 +5,8 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  siteMetadata: {
+    author: "Jason Levy",
+    title: "Gatsby Practice Project"
+  }
 }
