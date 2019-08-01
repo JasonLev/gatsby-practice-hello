@@ -9,7 +9,6 @@ export default () => {
       query {
         site {
           siteMetadata {
-            author
             title
           }
         }
@@ -17,8 +16,7 @@ export default () => {
     `)
     return (
         <Layout >
-            <h1>This project is {data.site.siteMetadata.title}</h1>
-            <h3>This was built by {data.site.siteMetadata.author}</h3>
+            <h1>Welcome to the {data.site.siteMetadata.title}</h1>
         </Layout>
     )
 }
